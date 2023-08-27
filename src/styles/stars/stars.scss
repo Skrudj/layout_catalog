@@ -1,0 +1,17 @@
+.stars {
+  display: flex;
+  gap: 4px;
+
+  &__star {
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    background-image: url(../images/star.svg);
+  }
+
+  @for $star from 1 through 4 {
+    &__star:nth-child(#{$star}) {
+      background-image: url(../images/star-active.svg);
+    }
+  }
+}
