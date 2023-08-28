@@ -23,18 +23,18 @@
   &__nav-link {
     text-decoration: none;
     color: #000;
-    font-family: "Roboto", sans-serif;
+    font-family: #{$standart-font-family}, sans-serif;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
     padding: 23px 0;
 
     &:hover {
-      color: #00acdc;
+      color: #{$interface-items-color};
     }
 
     &--is-active {
-      color: #00acdc;
+      color: #{$interface-items-color};
       position: relative;
 
       &::after {
@@ -46,7 +46,7 @@
         display: block;
         width: 100%;
 
-        background-color: #00acdc;
+        background-color: #{$interface-items-color};
         border-radius: 8px;
       }
     }

@@ -1,3 +1,9 @@
+@import "../utils/variables.scss";
+
+@import "./navbar/navbar.scss";
+@import "./stars/stars.scss";
+@import "./card/card.scss";
+
 body {
   margin: 0;
 }
