@@ -5,6 +5,10 @@
 @import "./card/card.scss";
 @import "./catalog/catalog.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
